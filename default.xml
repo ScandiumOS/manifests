@@ -1,15 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <remote  name="github"
-           fetch=".."
+   <remote name="github"
+           fetch="https://github.com/" />    
            review="review.lineageos.org" />
 
     <remote  name="scandium"
            fetch="https://github.com/ScandiumOS"
-
-  <remote  name="private"
-           fetch="ssh://git@github.com" />
 
   <remote  name="aosp"
            fetch="https://android.googlesource.com"
