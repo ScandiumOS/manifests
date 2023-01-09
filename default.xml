@@ -3,7 +3,6 @@
 
   <remote  name="scandium"
            fetch="https://github.com/ScandiumOS"
-           revision="12" />
 
   <remote name="gitlab"
           fetch="https://gitlab.com" />
@@ -11,9 +10,6 @@
   <remote  name="github"
            fetch=".."
            review="review.lineageos.org" />
-
-  <remote  name="private"
-           fetch="ssh://git@github.com" />
 
   <remote  name="aosp"
            fetch="https://android.googlesource.com"
