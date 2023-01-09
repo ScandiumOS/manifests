@@ -2,7 +2,7 @@
 <manifest>
 
   <remote  name="scandium"
-           fetch="https://github.com/ScandiumOS"
+           fetch="https://github.com/ScandiumOS" />
 
   <remote name="gitlab"
           fetch="https://gitlab.com" />
