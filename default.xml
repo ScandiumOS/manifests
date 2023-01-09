@@ -2,11 +2,11 @@
 <manifest>
 
    <remote name="github"
-           fetch="https://github.com"   
+           fetch=".."   
            review="review.lineageos.org" />
 
    <remote  name="scandium"
-           fetch="https://github.com/ScandiumOS"
+           fetch="https://github.com/ScandiumOS" />
 
   <remote  name="aosp"
            fetch="https://android.googlesource.com"
