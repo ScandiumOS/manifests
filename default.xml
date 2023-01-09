@@ -23,7 +23,7 @@
   <default revision="refs/heads/lineage-19.0"
            remote="github"
            sync-c="true"
-           sync-j="8" />
+           sync-j="4" />
 
   <superproject name="platform/superproject" remote="aosp" revision="android-12.0.0_r29" />
   <contactinfo bugurl="go/repo-bug" />
@@ -1038,5 +1038,4 @@
   <include name="snippets/lineage.xml" />
   <include name="snippets/scandium.xml" />
 
-  <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
 </manifest>
