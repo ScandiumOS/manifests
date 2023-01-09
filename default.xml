@@ -24,7 +24,6 @@
   <superproject name="platform/superproject" remote="aosp" revision="android-12.0.0_r29" />
   <contactinfo bugurl="go/repo-bug" />
 
-  <!--ScandiumOS Additions -->
   <project path="build/bazel" name="platform/build/bazel" groups="pdk" remote="aosp" >
     <linkfile src="bazel.WORKSPACE" dest="WORKSPACE" />
     <linkfile src="bazel.sh" dest="tools/bazel" />
