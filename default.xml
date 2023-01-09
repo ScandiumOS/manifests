@@ -2,7 +2,8 @@
 <manifest>
 
   <remote  name="scandium"
-           fetch="https://github.com/ScandiumOS" />
+           fetch="https://github.com/ScandiumOS"
+           revision="12" />
 
   <remote name="gitlab"
           fetch="https://gitlab.com" />
@@ -10,6 +11,9 @@
   <remote  name="github"
            fetch=".."
            review="review.lineageos.org" />
+
+  <remote  name="private"
+           fetch="ssh://git@github.com" />
 
   <remote  name="aosp"
            fetch="https://android.googlesource.com"
@@ -24,6 +28,7 @@
   <superproject name="platform/superproject" remote="aosp" revision="android-12.0.0_r29" />
   <contactinfo bugurl="go/repo-bug" />
 
+  <!--Scandium Project Additions -->
   <project path="build/bazel" name="platform/build/bazel" groups="pdk" remote="aosp" >
     <linkfile src="bazel.WORKSPACE" dest="WORKSPACE" />
     <linkfile src="bazel.sh" dest="tools/bazel" />
@@ -1033,4 +1038,5 @@
   <include name="snippets/lineage.xml" />
   <include name="snippets/scandium.xml" />
 
+  <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
 </manifest>
