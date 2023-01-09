@@ -2,10 +2,10 @@
 <manifest>
 
    <remote name="github"
-           fetch="https://github.com/" />    
+           fetch=".." />    
            review="review.lineageos.org" />
 
-    <remote  name="scandium"
+   <remote  name="scandium"
            fetch="https://github.com/ScandiumOS"
 
   <remote  name="aosp"
