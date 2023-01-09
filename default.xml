@@ -6,7 +6,8 @@
            review="review.lineageos.org" />
 
    <remote  name="scandium"
-           fetch="https://github.com/ScandiumOS" />
+           fetch="https://github.com/ScandiumOS"
+           revision="12" />
 
   <remote  name="aosp"
            fetch="https://android.googlesource.com"
