@@ -1,13 +1,14 @@
-# ScandiumOS | Open Source Software
+# [COMING SOON] ScandiumOS | Open Source Software
 android based on AOSP.
 
-### Requirements
-- Around 500GB disk space.
-- Around 18GB RAM running Linux.
+# Requirements:
+- Around 400G disk space.
+- A computer with at least 16GB RAM running Linux (recommended) or MacOS.
+- Build environment [setup](https://github.com/akhilnarang/scripts).
 
 ### Sync our source ###
 ```bash
-repo init -u https://github.com/scandiumOS/android -b 12.1
+repo init -u https://github.com/ScandiumOS/manifests.git -b Holocaust
 ```
 ```bash
 repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags
@@ -16,15 +17,15 @@ repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags
 ### Build our source ###
 ```bash
 . build/envsetup.sh
-lunch lineage_$devicecodename-userdebug
-mka bacon -j$(nproc --all)
+lunch scandium_$devicecodename-userdebug
+mka scandium -j$(nproc --all)
 ```
+
+To get started with the building process, you'll need to get familiar with [Git and Repo](http://source.android.com/source/using-repo.html).
 
 ### Credits ###
  * [**AOSP**](https://android.googlesource.com)
  * [**PixelExperience**](https://github.com/PixelExperience)
  * [**LineageOS**](https://github.com/LineageOS)
- * [**POSP**](https://github.com/PotatoProject)
- * [**DerpFest**](https://github.com/DerpLab)
- * [**Superior OS**](https://github.com/SuperiorOS)
- * [**ExtendedUI**](https://github.com/Extended-UI)
+ * [**ProtonAOSP**](https://github.com/ProtonAOSP)
+ * [**ArrowOS**](https://github.com/ArrowOS)
