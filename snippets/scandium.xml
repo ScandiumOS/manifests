@@ -7,6 +7,9 @@
            revision="scandium-dev"
            sync-j="4" />
 
+  <!-- Nusantara remote -->
+  <remote  name="nad"
+           fetch="https://gitlab.com/Project-Madhav/nad/"
 
   <!-- Github remote -->
   <remote  name="github"
@@ -120,7 +123,7 @@
   <!-- Vendor -->
   <project path="vendor/scandium" name="vendor_scandium" remote="scandium" />
   <project path="vendor/themes" name="vendor_themes" remote="scandium" />
-  <project path="vendor/gapps" name="ScandiumOS/vendor_google_gms" remote="scandium" revision="scandium-dev" />
+  <project path="vendor/gapps" name="NusantaraProject/vendor_google_gms" remote="nad" revision="thirteen" />
   <project path="vendor/codeaurora/telephony" name="vendor_codeaurora_telephony" remote="scandium" />
   <project path="vendor/qcom/opensource/commonsys-intf/display" name="vendor_qcom_opensource_commonsys-intf_display" remote="scandium" />
   <project path="vendor/qcom/opensource/commonsys/display" name="vendor_qcom_opensource_commonsys_display" remote="scandium" />
