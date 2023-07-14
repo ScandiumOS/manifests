@@ -9,7 +9,7 @@
 
   <!-- Nusantara remote -->
   <remote  name="nad"
-           fetch="https://gitlab.com/Project-Madhav/nad/"
+           fetch="https://gitlab.com/Project-Madhav/nad/" />
 
   <!-- Github remote -->
   <remote  name="github"
