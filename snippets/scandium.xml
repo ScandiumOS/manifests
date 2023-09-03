@@ -103,7 +103,7 @@
   <!-- Sepolicy -->
   <project path="device/scandium/sepolicy" name="device_scandium_sepolicy" remote="scandium" />
   <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr" remote="scandium" revision="arrow-13.0" />
-  <project path="device/qcom/sepolicy-legacy-um" name="device_qcom_sepolicy-legacy-um" remote="scandium" />
+  <project path="device/qcom/sepolicy_legacy-um" name="device_qcom_sepolic_legacy-um" remote="scandium" />
   <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="scandium" />
   <project path="device/qcom/sepolicy_vndr" name="device_qcom_sepolicy_vndr" remote="scandium" />
   <project path="device/qcom/sepolicy_vndr-legacy-um" name="device_qcom_sepolicy_vndr"  remote="scandium" revision="scandium-dev" />
