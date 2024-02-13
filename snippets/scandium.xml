@@ -7,17 +7,13 @@
            revision="scandium-dev"
            sync-j="4" />
 
-  <!-- Github remote -->
-  <remote  name="github"
-           fetch="https://github.com/" />
+  <remote name="nad-gitlab"
+          fetch="https://gitlab.com/Project-Madhav"
+          revision="thirteen" />
 
   <remote  name="pe"
            fetch="https://gitlab.pixelexperience.org/android"
            revision="refs/heads/twelve" />
-
-  <!-- Gitlab remote -->
-  <remote  name="gitlab"
-           fetch="https://gitlab.com/" />
 
   <project path="manifest" name="ScandiumOS/manifest" remote="github" revision="scandium-dev" />
   <project path="art" name="art" remote="scandium" />
@@ -50,7 +46,7 @@
 
   <!-- Frameworks -->
   <project path="frameworks/av" name="frameworks_av" remote="scandium" />
-  <project path="frameworks/base" name="Project-Madhav/frameworks_base" remote="gitlab" revision="thirteen" />
+  <project path="frameworks/base" name="frameworks_base" remote="nad-gitlab" revision="thirteen" />
   <project path="frameworks/native" name="frameworks_native" remote="scandium" />
   <project path="frameworks/libs/systemui" name="frameworks_libs_systemui" remote="scandium" />
   <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="scandium" />
@@ -100,7 +96,7 @@
   <project path="device/qcom/sepolicy_vndr-legacy-um" name="device_qcom_sepolicy_vndr"  remote="scandium" revision="scandium-dev" />
 
   <!-- System -->
-  <project path="system/core" name="Project-Madhav/system_core" remote="gitlab" revision="thirteen" />
+  <project path="system/core" name="system_core" remote="nad-gitlab" revision="thirteen" />
   <project path="system/extras" name="system_extras" remote="scandium" />
   <project path="system/libhidl" name="system_libhidl" remote="scandium" />
   <project path="system/media" name="system_media" remote="scandium" />
