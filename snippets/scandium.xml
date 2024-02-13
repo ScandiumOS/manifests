@@ -29,7 +29,7 @@
   <remote  name="gitlab"
            fetch="https://gitlab.com/" />
 
-  <project path="manifest" name="ScandiumOS/manifest" remote="gitlab" revision="scandium-dev" />
+  <project path="manifest" name="ScandiumOS/manifest" remote="github" revision="scandium-dev" />
   <project path="art" name="art" remote="scandium" />
   <project path="bionic" name="bionic" remote="scandium" />
   <project path="libcore" name="libcore" remote="scandium" />
