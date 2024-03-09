@@ -28,6 +28,7 @@
   <project path="libcore" name="libcore" remote="scandium" />
   <project path="build/blueprint" name="build_blueprint" remote="scandium" />
   <project path="bootable/recovery" name="bootable_recovery" remote="scandium" />
+  
   <!-- Build -->
   <project path="build/make" name="build_make" remote="scandium" >
     <copyfile src="core/root.mk" dest="Makefile" />
@@ -42,11 +43,13 @@
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
+  
   <!-- External -->
   <project path="external/faceunlock" name="external_faceunlock" remote="scandium" />
   <project path="external/selinux" name="external_selinux" remote="scandium" />
   <project path="external/tinycompress" name="external_tinycompress" remote="scandium" />
   <project path="external/wpa_supplicant_8" name="external_wpa_supplicant_8" remote="scandium" />
+  
   <!-- Frameworks -->
   <project path="frameworks/av" name="frameworks_av" remote="scandium" />
   <project path="frameworks/base" name="frameworks_base" remote="nad-gitlab" revision="thirteen" />
@@ -55,6 +58,7 @@
   <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="scandium" />
   <project path="frameworks/opt/net/ims" name="frameworks_opt_net_ims" remote="scandium" />
   <project path="frameworks/opt/net/wifi" name="frameworks_opt_net_wifi" remote="scandium" />
+  
   <!-- Hardware -->
   <project path="hardware/interfaces" name="hardware_interfaces" remote="scandium" />
   <project path="hardware/scandium/interfaces" name="hardware_scandium_interfaces" remote="scandium" />
@@ -62,7 +66,9 @@
   <project path="hardware/libhardware_legacy" name="hardware_libhardware_legacy" remote="scandium" />
   <project path="hardware/xiaomi" name="hardware_xiaomi" remote="scandium" />
   <project path="hardware/oplus" name="android_hardware_oplus" remote="scandium" /> 
+  
   <!-- Packages -->
+  <project path="packages/apps/Aperture" name="packages_apps_Aperture" remote="scandium" />
   <project path="packages/apps/DeskClock" name="packages_apps_DeskClock" remote="scandium" />
   <project path="packages/apps/Dialer" name="packages_apps_Dialer" remote="scandium" />
   <project path="packages/apps/FaceUnlockService" name="packages_apps_FaceUnlockService" remote="scandium" />
@@ -85,8 +91,10 @@
   <project path="packages/services/Telephony" name="packages_services_Telephony" remote="scandium" />
   <project path="packages/providers/DownloadProvider" name="packages_providers_DownloadProvider" remote="scandium" />
   <project path="packages/providers/MediaProvider" name="packages_providers_MediaProvider" remote="scandium" />
+  
   <!-- Prebuilts -->
   <project path="prebuilts/tools-extras" name="prebuilts_tools-extras" remote="scandium" />
+  
   <!-- Sepolicy -->
   <project path="device/scandium/sepolicy" name="device_scandium_sepolicy" remote="scandium" />
   <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr" remote="scandium" revision="arrow-13.0" />
@@ -94,6 +102,7 @@
   <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="scandium" />
   <project path="device/qcom/sepolicy_vndr" name="device_qcom_sepolicy_vndr" remote="scandium" />
   <project path="device/qcom/sepolicy_vndr-legacy-um" name="device_qcom_sepolicy_vndr"  remote="scandium" revision="scandium-dev" />
+  
   <!-- System -->
   <project path="system/core" name="system_core" remote="nad-gitlab" revision="thirteen" />
   <project path="system/extras" name="system_extras" remote="scandium" />
@@ -105,6 +114,7 @@
   <project path="system/vold" name="system_vold" remote="scandium" />
   <project path="system/memory/lmkd" name="system_memory_lmkd" remote="scandium" />
   <project path="system/tools/mkbootimg" name="system_tools_mkbootimg" remote="scandium" />
+  
   <!-- Vendor -->
   <project path="vendor/scandium" name="vendor_scandium" remote="scandium" />
   <project path="vendor/themes" name="vendor_themes" remote="scandium" />
@@ -115,4 +125,5 @@
   <project path="vendor/qcom/opensource/interfaces" name="vendor_qcom_opensource_interfaces" remote="scandium" />
   <project path="vendor/qcom/opensource/power" name="vendor_qcom_opensource_power" remote="scandium" />
   <project path="vendor/qcom/opensource/vibrator" name="vendor_qcom_opensource_vibrator" remote="scandium" />
+  
 </manifest>
