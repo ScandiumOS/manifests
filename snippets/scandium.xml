@@ -4,7 +4,7 @@
   <!-- Scandium remote -->
   <remote  name="scandium"
            fetch="https://github.com/ScandiumOS/"
-           revision="Holocaust"
+           revision="scandium-dev"
            sync-j="4" />
 
   <remote name="nad-gitlab"
@@ -15,7 +15,7 @@
            fetch="https://gitlab.pixelexperience.org/android"
            revision="refs/heads/twelve" />
 
-  <project path="manifest" name="ScandiumOS/manifests" remote="github" revision="Holocaust" />
+  <project path="manifest" name="ScandiumOS/manifest" remote="github" revision="Holocaust" />
   <project path="art" name="art" remote="scandium" />
   <project path="bionic" name="bionic" remote="scandium" />
   <project path="libcore" name="libcore" remote="scandium" />
