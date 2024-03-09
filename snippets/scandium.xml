@@ -23,7 +23,7 @@
   <remote  name="gitlab"
            fetch="https://gitlab.com/" />
   
-  <project path="manifest" name="ScandiumOS/manifest" remote="github" revision="Holocaust" />
+  <project path="manifest" name="ScandiumOS/manifests" remote="github" revision="Holocaust" />
   <project path="art" name="art" remote="scandium" />
   <project path="bionic" name="bionic" remote="scandium" />
   <project path="libcore" name="libcore" remote="scandium" />
