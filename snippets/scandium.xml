@@ -128,4 +128,4 @@
   <project path="vendor/qcom/opensource/power" name="vendor_qcom_opensource_power" remote="scandium" />
   <project path="vendor/qcom/opensource/vibrator" name="vendor_qcom_opensource_vibrator" remote="scandium" />
     
-</manifest>
+<manifest>
