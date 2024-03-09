@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+  
   <!-- Scandium remote -->
   <remote  name="scandium"
            fetch="https://github.com/ScandiumOS/"
