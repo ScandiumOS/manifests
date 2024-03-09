@@ -7,6 +7,10 @@
            revision="scandium-dev"
            sync-j="4" />
 
+  <remote  name="ScandiumOS-Devices"
+           fetch="https://github.com/ScandiumOS-Devices"
+           revision="refs/heads/scandium-dev" />
+  
   <remote name="nad-gitlab"
           fetch="https://gitlab.com/Project-Madhav/nad/"
           revision="thirteen" />
