@@ -4,7 +4,7 @@
   <!-- Scandium remote -->
   <remote  name="scandium"
            fetch="https://github.com/ScandiumOS/"
-           revision="scandium-dev"
+           revision="Holocaust"
            sync-j="4" />
 
   <remote name="nad-gitlab"
