@@ -8,7 +8,7 @@
            sync-j="4" />
 
   <remote name="nad-gitlab"
-          fetch="https://gitlab.com/Project-Madhav"
+          fetch="https://gitlab.com/Project-Madhav/nad/"
           revision="thirteen" />
 
   <!-- Github remote -->
