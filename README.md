@@ -8,6 +8,9 @@ android based on AOSP.
 
 ### Sync our source ###
 ```bash
+repo init -u https://github.com/ScandiumOS/manifest.git -b Holocaust
+```
+```bash
 repo init --depth=1 -u https://github.com/ScandiumOS/manifest.git -b Holocaust
 ```
 ```bash
