@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   
-  <!--Scandium remote -->
+  <!-- Scandium remote -->
   <remote  name="scandium"
            fetch="https://github.com/ScandiumOS/"
            revision="scandium-dev"
            sync-j="4" />
 
-  <!--Scandium Devices remote -->
+  <!-- Scandium Devices remote -->
   <remote  name="ScandiumOS-Devices"
            fetch="https://github.com/ScandiumOS-Devices"
            revision="refs/heads/scandium-dev" />
