@@ -5,7 +5,7 @@
   <remote  name="scandium"
            fetch="https://github.com/ScandiumOS/"
            revision="scandium-dev"
-           sync-j="4" />
+           sync-j="12" />
 
   <!-- Scandium Devices remote -->
   <remote  name="ScandiumOS-Devices"
