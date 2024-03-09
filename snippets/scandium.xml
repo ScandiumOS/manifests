@@ -1,12 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   
-  <!-- Scandium remote -->
+  <!--Scandium remote -->
   <remote  name="scandium"
            fetch="https://github.com/ScandiumOS/"
            revision="scandium-dev"
            sync-j="4" />
 
+  <!--Scandium Devices remote -->
+  <remote  name="ScandiumOS-Devices"
+           fetch="https://github.com/ScandiumOS-Devices"
+           revision="refs/heads/scandium-dev" />
+  
+  <!-- Nad gitlab remote -->
   <remote name="nad-gitlab"
           fetch="https://gitlab.com/Project-Madhav/nad/"
           revision="thirteen" />
@@ -14,7 +20,8 @@
   <!-- Github remote -->
   <remote  name="github"
            fetch="https://github.com/" />
-  
+
+  <!-- Pixel remote -->
   <remote  name="pe"
            fetch="https://gitlab.pixelexperience.org/android"
            revision="refs/heads/twelve" />
@@ -40,6 +47,8 @@
     <linkfile src="target" dest="build/target"/>
     <linkfile src="tools" dest="build/tools"/>
   </project>
+
+  <!-- Soong -->
   <project path="build/soong" name="build_soong" remote="scandium" >
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
