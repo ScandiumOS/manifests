@@ -130,4 +130,12 @@
   <project path="vendor/qcom/opensource/interfaces" name="vendor_qcom_opensource_interfaces" remote="scandium" />
   <project path="vendor/qcom/opensource/power" name="vendor_qcom_opensource_power" remote="scandium" />
   <project path="vendor/qcom/opensource/vibrator" name="vendor_qcom_opensource_vibrator" remote="scandium" />
+
+  <!-- OTA -->
+  <project path="OTA" name="OTA" remote="ScandiumOS-Devices">
+      <linkfile src="ota.sh" dest="ota.sh" />
+      <linkfile src="devices.json" dest="devices.json" />
+  </project>
+
+
 </manifest>
