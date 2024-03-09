@@ -61,6 +61,7 @@
   <project path="hardware/libhardware" name="hardware_libhardware" remote="scandium" />
   <project path="hardware/libhardware_legacy" name="hardware_libhardware_legacy" remote="scandium" />
   <project path="hardware/xiaomi" name="hardware_xiaomi" remote="scandium" />
+  <project path="hardware/oplus" name="android_hardware_oplus" remote="scandium" /> 
   <!-- Packages -->
   <project path="packages/apps/DeskClock" name="packages_apps_DeskClock" remote="scandium" />
   <project path="packages/apps/Dialer" name="packages_apps_Dialer" remote="scandium" />
