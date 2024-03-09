@@ -7,16 +7,17 @@
            sync-j="4" />
 
   <remote name="nad-gitlab"
-          fetch="https://gitlab.com/Project-Madhav"
           fetch="https://gitlab.com/Project-Madhav/nad/"
           revision="thirteen" />
 
   <!-- Github remote -->
   <remote  name="github"
            fetch="https://github.com/" />
+  
   <remote  name="pe"
            fetch="https://gitlab.pixelexperience.org/android"
            revision="refs/heads/twelve" />
+  
   <!-- Gitlab remote -->
   <remote  name="gitlab"
            fetch="https://gitlab.com/" />
@@ -48,7 +49,7 @@
   <project path="external/wpa_supplicant_8" name="external_wpa_supplicant_8" remote="scandium" />
   <!-- Frameworks -->
   <project path="frameworks/av" name="frameworks_av" remote="scandium" />
-  <project path="frameworks/base" name="Project-Madhav/nad/frameworks_base" remote="gitlab" revision="thirteen" />
+  <project path="frameworks/base" name="frameworks_base" remote="nad-gitlab" revision="thirteen" />
   <project path="frameworks/native" name="frameworks_native" remote="scandium" />
   <project path="frameworks/libs/systemui" name="frameworks_libs_systemui" remote="scandium" />
   <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="scandium" />
