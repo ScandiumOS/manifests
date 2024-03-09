@@ -1,5 +1,5 @@
 # [COMING SOON] ScandiumOS | Open Source Software
-android based on AOSP
+android based on AOSP.
 
 # Requirements:
 - Around 400G disk space.
