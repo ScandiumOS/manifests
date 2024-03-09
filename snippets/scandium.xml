@@ -7,6 +7,10 @@
            revision="scandium-dev"
            sync-j="4" />
 
+  <remote  name="ScandiumOS-Devices"
+           fetch="https://github.com/ScandiumOS-Devices"
+           revision="refs/heads/scandium-dev" />
+  
   <remote name="nad-gitlab"
           fetch="https://gitlab.com/Project-Madhav/nad/"
           revision="thirteen" />
@@ -127,5 +131,4 @@
   <project path="vendor/qcom/opensource/interfaces" name="vendor_qcom_opensource_interfaces" remote="scandium" />
   <project path="vendor/qcom/opensource/power" name="vendor_qcom_opensource_power" remote="scandium" />
   <project path="vendor/qcom/opensource/vibrator" name="vendor_qcom_opensource_vibrator" remote="scandium" />
-
 <manifest>
