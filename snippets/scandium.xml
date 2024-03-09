@@ -2,30 +2,30 @@
 <manifest>
 
    <!-- Scandium remote -->
-   <remote name="scandium"
-           fetch="https://github.com/ScandiumOS/"
-           revision="scandium-dev"
-           sync-j="4" />
+   <remote  name="scandium"
+            fetch="https://github.com/ScandiumOS/"
+            revision="scandium-dev"
+            sync-j="4" />
 
-   <remote name="ScandiumOS-Devices"
-           fetch="https://github.com/ScandiumOS-Devices"
-           revision="refs/heads/scandium-dev" />
+   <remote  name="ScandiumOS-Devices"
+            fetch="https://github.com/ScandiumOS-Devices"
+            revision="refs/heads/scandium-dev" />
   
-   <remote name="nad-gitlab"
-           fetch="https://gitlab.com/Project-Madhav/nad/"
-           revision="thirteen" />
+   <remote  name="nad-gitlab"
+            fetch="https://gitlab.com/Project-Madhav/nad/"
+            revision="thirteen" />
 
    <!-- Github remote -->
-   <remote name="github"
-           fetch="https://github.com/" />
+   <remote  name="github"
+            fetch="https://github.com/" />
 
-   <remote name="pe"
-           fetch="https://gitlab.pixelexperience.org/android"
-           revision="refs/heads/twelve" />
+   <remote  name="pe"
+            fetch="https://gitlab.pixelexperience.org/android"
+            revision="refs/heads/twelve" />
 
    <!-- Gitlab remote -->
    <remote  name="gitlab"
-           fetch="https://gitlab.com/" />
+            fetch="https://gitlab.com/" />
   
    <project path="manifest" name="ScandiumOS/manifest" remote="github" revision="Holocaust" />
    <project path="art" name="art" remote="scandium" />
