@@ -137,4 +137,5 @@
       <linkfile src="ota.sh" dest="ota.sh" />
       <linkfile src="devices.json" dest="devices.json" />
   </project>
+    
 </manifest>
