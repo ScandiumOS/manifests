@@ -88,7 +88,7 @@
   <project path="packages/apps/Settings" name="ScandiumOS/packages_apps_Settings" remote="github" revision="scandium-setting" /> 
   <project path="packages/apps/SettingsIntelligence" name="packages_apps_SettingsIntelligence" remote="scandium" />
   <project path="packages/apps/ThemePicker" name="packages_apps_ThemePicker" remote="scandium" />
-  <project path="packages/apps/TouchGestures" name="packages_apps_TouchGestures" remote="scandium" />
+  <project path="packages/apps/TouchGestures" name="ScandiumOS/packages_apps_TouchGestures" remote="github" revision="scandium-gesture" /> 
   <project path="packages/apps/SimpleDeviceConfig" name="packages_apps_SimpleDeviceConfig" remote="scandium" />
   <project path="packages/apps/WallpaperPicker2" name="packages_apps_WallpaperPicker2" remote="scandium" />
   <project path="packages/inputmethods/LatinIME" name="packages_inputmethods_LatinIME" remote="scandium" />
@@ -127,6 +127,7 @@
   
   <!-- Vendor -->
   <project path="vendor/scandium" name="vendor_scandium" remote="scandium" />
+  <project path="vendor/scandium/support" name="ScandiumOS/android_vendor_support" remote="github" revision="Vendor_Support" />
   <project path="vendor/themes" name="vendor_themes" remote="scandium" />
   <project path="vendor/gapps" name="NusantaraProject/vendor_google_gms" remote="gitlab" revision="13" />
   <project path="vendor/codeaurora/telephony" name="vendor_codeaurora_telephony" remote="scandium" />
