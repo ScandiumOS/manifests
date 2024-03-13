@@ -85,7 +85,7 @@
   <project path="packages/apps/GameSpace" name="packages_apps_GameSpace" remote="scandium" />
   <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="scandium" />
   <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="scandium" />
-  <project path="packages/apps/Settings" name="ScandiumOS/packages_apps_Settings" remote="github" revision="scandium-setting" /> 
+  <project path="packages/apps/Settings" name="ScandiumOS/android_packages_apps_Settings" remote="github" revision="13.0" /> 
   <project path="packages/apps/SettingsIntelligence" name="packages_apps_SettingsIntelligence" remote="scandium" />
   <project path="packages/apps/ThemePicker" name="packages_apps_ThemePicker" remote="scandium" />
   <project path="packages/apps/SimpleDeviceConfig" name="packages_apps_SimpleDeviceConfig" remote="scandium" />
